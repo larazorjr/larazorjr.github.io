@@ -1,11 +1,20 @@
+:root{
+    --:maroon;
+    --:red;
+    --black:#000;
+    --white:#fff;
+}
 
 body {
 margin: 0;
 padding: 0;
-font-family: "Give You Glory;
-background-color: var(--black);
-color: var(--white);
+font-family: "Give You Glory";
+color: var(--maroon);
 }
+
+#letter-analysis{
+    display:none
+    }
 
 .container {
 width: 300px;
@@ -32,7 +41,7 @@ margin: 0;
 #button {
 width: 120px;
 height: 120px;
-background-color: var(--red);
+color: var(--red);
 margin-left: 31.28px;
 border-radius: 50%;
 transition: background-color 0.3s;
@@ -42,6 +51,26 @@ transition: background-color 0.3s;
 background-color:var(--blue);
 cursor:pointer;
 }
+
+::-webkit-scrollbar {
+    width: 7.5px;
+    height: 7.5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: white;
+    }
+    
+    
+    ::-webkit-scrollbar-thumb {
+    background: var(--black);
+    }
+    
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: var(--black);
+    }
+
 
 .body {
 margin-top: 36px;
@@ -59,6 +88,7 @@ color: var(--white);
 
 .body p {
 margin: 0;
+font-family: Give-You-Glory;
 font-size: 14px;
 line-height: 20px;
 font-weight: 70;
@@ -111,4 +141,4 @@ color: var(--white);
 
 .sources h3 {
 font-size: 10px;
-
+}
