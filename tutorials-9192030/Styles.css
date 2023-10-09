@@ -15,12 +15,15 @@ color:#fff;
 }
 
 #letter-analysis{
-    display:none
+    /* display: none; */
+    position: absolute;
+    top: 175px;
+    left: 60px;
     }
 
 .container {
-width: 300px;
-margin: 0;
+width: 1024px;
+margin: 0 auto;
 }
 
 header {
@@ -31,19 +34,22 @@ height: 80px;
 .letter-container {
 width: 715px;
 position:relative;
+margin: 0 auto;
 
 }
 
 .letter-container h1{
-font-size: 300px;
+font-size: 500px;
 font-weight: 400;
-margin: 0;
+margin: 0 auto;
+margin-top: -100px;
+width: 500px;
 }
 
 #button {
     position:absolute;
-    bottom:89px;
-    right: 109px;
+    bottom: 399px;
+    right: 229px;
 width: 120px;
 height: 120px;
 background-color: var(--red);
