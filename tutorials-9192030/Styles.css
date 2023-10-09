@@ -1,15 +1,17 @@
 :root{
-    --:maroon;
-    --:red;
+    --maroon:#A50000;
+    --red:red;
     --black:#000;
     --white:#fff;
+    --blue:#00C1FE;
 }
 
 body {
 margin: 0;
 padding: 0;
 font-family: "Give You Glory";
-color: var(--maroon);
+background-color: var(--maroon);
+color:#fff;
 }
 
 #letter-analysis{
@@ -27,22 +29,25 @@ height: 80px;
 }
 
 .letter-container {
-width: 300px;
-display:flex;
-align-items: baseline;
+width: 715px;
+position:relative;
+
 }
 
 .letter-container h1{
 font-size: 300px;
-font-weight: 700px;
+font-weight: 400;
 margin: 0;
 }
 
 #button {
+    position:absolute;
+    bottom:89px;
+    right: 109px;
 width: 120px;
 height: 120px;
-color: var(--red);
-margin-left: 31.28px;
+background-color: var(--red);
+/* margin-left: 31.28px; */
 border-radius: 50%;
 transition: background-color 0.3s;
 }
@@ -95,7 +100,6 @@ font-weight: 70;
 }
 
 footer {
-font-family: "Give-You-Glory";
 margin-bottom: 25%;
 display: flex;
 }
