@@ -1,0 +1,185 @@
+:root{
+    --maroon:#A50000;
+    --red:red;
+    --black:#000;
+    --white:#fff;
+    --blue:#00C1FE;
+}
+
+body {
+margin: 0;
+padding: 0;
+font-family: "Give You Glory";
+font-size: 36px;
+background-color: var(--maroon);
+color:#fff;
+position: relative;
+}
+
+#letter-analysis{
+    /* display: none; */
+    position: absolute;
+    top: 175px;
+    left: 60px;
+    }
+
+.container {
+width: 1024px;
+margin: 0 auto;
+}
+
+header {
+background-color: var(--maroon);
+height: 80px;
+}
+
+.letter-container {
+width: 715px;
+position:relative;
+margin: 0 auto;
+
+}
+
+.letter-container h1{
+font-size: 500px;
+font-weight: 400;
+margin: 0 auto;
+margin-top: -100px;
+width: 500px;
+}
+
+#button {
+    position:absolute;
+    bottom: 509px;
+    right: 229px;
+width: 120px;
+height: 120px;
+background-color: var(--red);
+/* margin-left: 31.28px; */
+border-radius: 50%;
+transition: background-color 0.3s;
+}
+
+#button:hover {
+background-color:var(--blue);
+cursor:pointer;
+}
+
+::-webkit-scrollbar {
+    width: 7.5px;
+    height: 7.5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: white;
+    }
+    
+    
+    ::-webkit-scrollbar-thumb {
+    background: var(--black);
+    }
+    
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: var(--black);
+    }
+
+
+.body {
+margin-top: 36px;
+margin-bottom: 52px;
+}
+
+.body h2 {
+display: flex;
+font-family: Give-You-Glory;
+font-weight: 100;
+font-size: 24px;
+line-height: 32px;
+margin-bottom: 6px;
+color: var(--white);
+}
+
+.body p {
+margin: 0;
+font-family: Give-You-Glory;
+font-size: 14px;
+line-height: 20px;
+font-weight: 70;
+}
+
+footer {
+margin-bottom: -40%;
+display: flex;
+}
+
+
+footer div{
+width:20%;
+}
+
+
+.photo-title {
+width: 200px;
+}
+
+
+.photo-title img {
+height:90px;
+width:90px;
+}
+
+
+.title {
+width: 190px;
+margin-left:10px;
+margin-top: -90px;
+}
+
+
+.sources {
+width: 200px;
+margin-left: 813px;
+margin-top: -48px;
+font-size: 20px;
+}
+
+
+.title h3{
+    font-size: 1px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 92px;
+    color: var(--white);
+    position: relative;
+}
+
+.sources h3 {
+font-size: 15px;
+font-weight: 700;
+margin-top: 0px;
+margin-bottom: 3px;
+color: var(--white);
+position: relative;
+}
+
+
+.sources h3 {
+font-size: 10px;
+}
+
+
+.sample-set {
+    font-size: 62px;
+    line-height: 105px;
+    overflow: hidden;
+    overflow-x: scroll;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: 813px;
+    color: #fff;
+    letter-spacing: 20px;
+    padding-bottom: 10px;
+    }
+    
