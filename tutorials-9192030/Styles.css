@@ -131,18 +131,30 @@ width:90px;
 
 
 .title {
-width: 100px;
+width: 190px;
 margin-left:10px;
+margin-top: -90px;
 }
 
 
 .sources {
 width: 200px;
-margin-left: 30px;
+margin-left: 813px;
+margin-top: -48px;
+font-size: 20px;
 }
 
 
-.title h3,
+.title h3{
+    font-size: 1px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 92px;
+    color: var(--white);
+    position: relative;
+}
+
 .sources h3 {
 font-size: 15px;
 font-weight: 700;
