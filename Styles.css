@@ -1,0 +1,107 @@
+/*This is the main CSS style sheet for larazorjr.github.io/project-2 site */
+
+/********* Typography */
+:root{
+    color: #C18C02;
+font-family: Pompiere;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 50px */
+}
+
+
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+/********* Breakfast:Mikate */ 
+.flex{
+    display: flex;
+    justify-content: space-around;}
+    .left-col{
+        
+    width: 366px;
+    }
+    .right-col{
+       
+    width: 557px;}
+    
+
+
+
+
+
+
+/********* nav */
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    background-color: 000000;
+    padding: 56px 0;
+    font-size: 32px;
+    
+
+
+}
+
+.last-item{
+    margin-left: 15px;
+}
+
+/********* nav ul li */
+li{
+    margin: 15px;
+}
+/********* color */
+
+/********* navigation */
+
+/*********Layout */
+
+
+
+#first-section{
+    background-color: red;
+    font-family: var(--display);
+}
+
+#second-section{
+    background-color: blue;
+    font-family: var(--sans);
+}
+
+#third-section{
+    background-color: green;
+}
+
+
+
+
+.chunk{
+    background-color: white;
+}
+.image-wrapper{
+    overflow: hidden;
+}
+#mikate.image-wrapper{
+    width: 100%;
+    height: 466px;
+}
+
+#Moambe.image-wrapper{
+    width: 100%;
+    height: 733px;
+}
+.image-wrapper img{
+   object-fit: cover;
+   width: 100%;
+}
+
+:footer{
+    font-size: small;
+}
